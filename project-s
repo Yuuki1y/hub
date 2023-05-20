@@ -350,26 +350,9 @@ local Skills = Main:CreateSector("Skills", "right")
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Made For xyz.yuki#5632",function())
-    --[[setclipboard("discord.gg/TqZTFRkGDC")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "q8QzqcxRWW",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)]]
+Credits:AddButton("Made For xyz.yuki#5632",function()
+    setclipboard("YukiMelhorDev")
+    end)
 --Farming
 Farming:AddToggle("Farm All Bosses", false, function(value)
     getgenv().AllBosses = value
@@ -1243,26 +1226,9 @@ local Teleports = Misc1:CreateSector("Teleports", "right")
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Made For xyz.yuki#5632",function())
-    --[[setclipboard("discord.gg/q8QzqcxRWW")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "q8QzqcxRWW",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)]]
+Credits:AddButton("Made For xyz.yuki#5632",function()
+    setclipboard("YukiMelhorDev")
+    end)
 --Farming
 Farming:AddDropdown("Dropdown", BossessTable, '', false, function(value)
     getgenv().SelectedBoss = value
@@ -2253,26 +2219,9 @@ local Misc = Misc1:CreateSector("Misc", 'left')
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Made For xyz.yuki#5632",function())
-    --[[setclipboard("discord.gg/q8QzqcxRWW")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "q8QzqcxRWW",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)]]
+Credits:AddButton("Made For xyz.yuki#5632",function()
+    setclipboard("YukiMelhorDev")
+    end)
 
 
 
@@ -2934,26 +2883,9 @@ local Misc = Misc1:CreateSector("Misc", 'left')
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Made For xyz.yuki#5632",function())
-    --[[setclipboard("discord.gg/q8QzqcxRWW")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "q8QzqcxRWW",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)]]
+Credits:AddButton("Made For xyz.yuki#5632",function()
+    setclipboard("YukiMelhorDev")
+    end)
 
 
 
@@ -3035,7 +2967,7 @@ oldindex = hookmetamethod(game, "__index", function(index, value)
 end)
 
 end
-local listofhwid = loadstring(game:HttpGet("https://pastebin.com/2DvEYaDG"))()
+local listofhwid = loadstring(game:HttpGet("https://pastebin.com/AmcCGEgD"))()
 local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
 
 if table.find(listofhwid, hwid) or hwid == "58810B8C-7CC7-49C2-A684-17E126B126F0" then
